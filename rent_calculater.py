@@ -7,4 +7,4 @@ persons = int(input("enter number of person : "))
 total_electricity = electricity_spend * charge_per_unit
 total_expense = rent + food + total_electricity
 
-print("Total expense is : ", total_expense/persons)
+print("Total expense per person is : ", total_expense/persons)
